@@ -4,12 +4,12 @@
     "jobs": [
       {
         "source": {
-          "type": "local",
+          "type": "remote",
           "path": "https://github.com/darinmilner/boto3scripts/thai-chinese-words.csv"
         },
         "destination": {
           "bucket": "test-boto3-scripts-bucket",
-          "key": "words/thai-chinese-words.txt",
+          "key": "thai-chinese-words.csv",
           "region": "us-east-1"
         },
         "options": {
@@ -47,7 +47,7 @@
         },
         "destination": {
           "bucket": "test-boto3-scripts-bucket",
-          "key": "words/thai-chinese-words.txt",
+          "key": "words/malay/thai-malay-words.csv",
           "region": "us-east-1"
         },
         "options": {
