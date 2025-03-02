@@ -5,7 +5,7 @@
       {
         "source": {
           "type": "remote",
-          "path": "https://github.com/darinmilner/boto3scripts/thai-chinese-words.csv"
+          "path": "https://github.com/darinmilner/boto3scripts/blob/master/thai-chinese-words.csv"
         },
         "destination": {
           "bucket": "test-boto3-scripts-bucket",
